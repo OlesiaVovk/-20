@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/avengers.jpg);
+    background-blend-mode: luminosity;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+
+h1,
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.card {
+    background-color: bisque;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 450px;
+}
+
+div {
+    margin-bottom: 5px;
+}
+
+#btn {
+    width: 100px;
+}
+
+#heroesContainer {
+    display: flex;
+    flex-direction: row;
+    width: 460px;
+}
+
+#userRating {
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+.scale {
+    color: red;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}

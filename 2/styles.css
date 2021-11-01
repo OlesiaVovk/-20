@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/bluesky.jpg);
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.other {
+    margin-top: 20px;
+}
+
+.city {
+    font-size: 50px;
+    color: #f37c0c;
+
+}
+
+.tempValue {
+    font-size: 70px;
+    color: #f37c0c;
+
+}
+
+.feels_like,
+.weather,
+.hi-low,
+.humidity {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(27, 5, 104);
+}
